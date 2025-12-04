@@ -15,6 +15,8 @@ The **Outbreak Response - UNC1549 Critical Infrastructure Espionage Attack** sol
 
 | Name | Rule Type |
 |:-------------------------|:------------------|
+| Detects CRASHPAD, a browser credential dumping utility used by UNC1549. | Yara |
+| Detects DCSYNCER.SLICK, a modified Mimikatz-based utility used by UNC1549 | Yara |
 | CVE-2020-0688 Exploitation via Eventlog | Sigma |
 | CVE-2020-0688 Exchange Exploitation via Web Log | Sigma |
 | ProxyLogon MSExchange OabVirtualDirectory | Sigma |
